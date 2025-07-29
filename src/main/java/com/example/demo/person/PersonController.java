@@ -31,4 +31,11 @@ public class PersonController {
         personService.saveNewPersonRequest(newPersonRequest);
     }
 
+    // implement delete functionality
+    // DELETE -> localhost:8084/persons/1
+
+    // implement update functionality
+    // PUT -> localhost:8084/persons/1
+    // allow client to update person name. e.g PersonUpdateRequest(name, age, password)
+
 }
